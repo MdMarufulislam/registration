@@ -1,0 +1,98 @@
+
+    body{
+        background: rgb(2, 0, 36);
+        background-image: linear-gradient(90deg, rgb(2, 0, 36));
+    }
+    .container{
+        background: rgb(207, 206, 221);
+        background-image: linear-gradient(90deg, rgb(192, 191, 211));
+    }
+    
+.select{
+font-size: 25px;
+font-weight: 600;
+color: rgb(2, 0, 36);
+}
+
+.course{
+font-size: 25px;
+font-weight: 600;
+color: rgb(2, 0, 36);
+}
+
+
+ input{
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(74, 71, 128);
+}
+label{
+    width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+ 
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: rgba(17, 10, 110, 0.84);
+  outline: invert;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+button {
+    margin: 30px;
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+.ferror {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: rgb(187 26 174);
+}
+.lerror {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: rgb(187 26 174);
+}
+.emailError {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: rgb(187 26 174);
+}
+.usererror {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: rgb(187 26 174);
+}
+.passerror {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: rgb(187 26 174);
+}
+
+
+
+
+
+
