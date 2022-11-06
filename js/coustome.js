@@ -12,23 +12,25 @@ function validation(){
 
     if(fname.value == ""){
         ferror.innerHTML="Please Enter Your Full Name";
-        return false
+        return false;
     }else if(fname.value.length < 5 || fname.value.length > 10){
         ferror.innerHTML="Your Name Should Be Between 5-10 Cherecters";
-        return false
-    }else if(lname.value == ""){
+        return false;
+     }
+    else if(lname.value == ""){
         lerror.innerHTML="Please Enter Your Full Name";
-        return false
-    }else if(fname.value != lname.value ){
+        return false;
+    }
+    else if(fname.value != lname.value ){
         lerror.innerHTML="Please Cheack Your First Name";
-        return false
+        return false;
     }else if(user.value == ""){
         usererror.innerHTML="Please Enter Your User Name";
-        return false
+        return false;
     }
     else if(user.value.length < 5 || user.value.length > 10){
         usererror.innerHTML="Your Name Should Be Between 5-10 Cherecters";
-        return false
+        return false;
     }else if(email.value == ""){
         emailError.innerHTML = "Please Type Your Email Address";
         return false;
